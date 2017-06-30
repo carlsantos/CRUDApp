@@ -1,0 +1,196 @@
+body { padding-top: 50px }
+
+nav {
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+
+.navbar .navbar-nav .active a,
+.navbar .navbar-nav .active a:focus {
+  background-color: transparent;
+  color: #FDA50F;
+}
+
+.home {
+  height: 100vh;
+  border-radius: 0!important;
+  margin: 0!important;
+  background: #A9A9A9 url(../img/newpoint-long-exposure.jpg) no-repeat center bottom;
+  background-size: cover;
+}
+
+@media(max-height: 400px) {
+  .home { height: 400px }
+}
+
+.home h1 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  margin: auto;
+  color: #fff;
+}
+
+.home header {
+  position: relative;
+  top: 35%;
+}
+
+.btntoblog {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  transition: .3s;
+}
+
+.btntoblog:hover {
+  background: #fff;
+  transition: .3s;
+}
+
+.create {
+  height: 650px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0!important;
+  border-radius: 0!important;
+  background: #fff url(../img/relaxing-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.create h2 {
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+
+.create-form {
+  padding: 3%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #202020;
+  opacity: .8!important;
+}
+
+.posts {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding: 4% 2%;
+}
+
+.posts h1 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  padding: 0!important;
+}
+
+.posted { color: #A9A9A9; }
+
+.edit-toggle {
+  position: fixed;
+  top: 180px;
+  right: 0;
+  background: #eee;
+  padding: 1% 1.5%;
+  z-index: 1;
+}
+
+.edit-toggle:hover {
+  cursor:pointer;
+}
+
+.options {
+  position: fixed;
+  top: 225px;
+  right: 0;
+  width: 150px;
+  padding: 1%;
+  text-align: right;
+  display: none;
+  background-color: #fff;
+  background: #eee;
+  z-index: 1;
+}
+
+.options a,
+.options input { margin-top: 5px; }
+
+.posts p {
+  font-family: 'Open sans';
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.posts .media-object {
+  width: 100px;
+  margin: auto;
+}
+
+.posts .media hr,
+.edit hr,
+.blogs hr {
+  text-align: left;
+  width: 70px;
+  margin-left: 0!important;
+  padding: .1px;
+  color: #FDA50F;
+  background: #FDA50F;
+  border-color: #FDA50F;
+}
+
+.posts .media-body {
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.edit {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.edit .input {
+  font-family: 'Open Sans';
+  line-height: 200%;
+  background-color: #eee;
+  border-color: #eee;
+}
+
+.blogs {
+  margin-top: 10px;
+  padding: 0!important;
+}
+
+.blogs .blogpost {
+  height: 300px;
+  overflow: hidden;
+}
+
+.blogs .blogpost div {
+  height: 280px;
+  padding: 3% 5%;
+  box-shadow: 0 2px 4px #A9A9A9;
+  transition: .5s;
+}
+
+.createpost {
+  position: fixed;
+  top: 150px;
+  right: 0;
+  padding: 10px 15px;
+  color: #202020;
+  background: #eee;
+  transition: .2s;
+  opacity: .7!important;
+  z-index: 1;
+}
+
+.createpost:hover {
+  transition: .2s;
+  box-shadow: 0 0 10px #A9A9A9;
+  opacity: 1!important;
+}
+
+footer {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 90%;
+  padding-top: 1%;
+}
